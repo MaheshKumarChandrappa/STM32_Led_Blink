@@ -112,7 +112,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7,1);
+    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7,1);
 	  HAL_Delay(1000);
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7,0);
 	  HAL_Delay(1000);
